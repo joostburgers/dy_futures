@@ -150,20 +150,22 @@ Working definition
 
 -   A opportunity for the humanities to complicate and question the way in which data is acquired, processed, and represented at a time when ways of knowing the world are increasingly digital.
 
-## <iframe data-src="http://mappingdecline.lib.uiowa.edu/map/" data-preload width = 1600 height = 1050></iframe>
+## <iframe data-src="http://mappingdecline.lib.uiowa.edu/map/" data-preload width = 1600 title="Mapping Decline" alt="Website cannot be loaded" height = 950></iframe>
 
+<div class = "citation">
+Gordon, Colin. [Mapping Decline](http://mappingdecline.lib.uiowa.edu/map/). University of Iowa Libraries, 2009.</div>
 
 ## DH as Network
 
 There is no "core" DH, but a series of related practices.
 
-![DH as Network](images/DH_network.png){width="700"}
+![DH as Network](images/DH_network.png){height="700"}
 
 ## DH as Network-ish
 
 Practices are markedly different from one another.
 
-![DH as disconnected network](images/network_without.png){width="700"}
+![DH as disconnected network](images/network_without.png){height="700"}
 
 ## Knowledge Production
 
@@ -221,9 +223,11 @@ The goal of the project was to be as comprehensive as possible.
 -   2176 Locations
 -   8520 Events
 
-## <iframe data-src="http://faulkner.iath.virginia.edu/" data-preload width = 1600 height = 1050></iframe>  
+## <iframe data-src="http://faulkner.iath.virginia.edu/" data-preload width = 1600 height = 950></iframe>  
 
- 
+
+<div class = "citation">
+Railton, Steven, et al. [Digital Yoknapatawpha](http://faulkner.iath.virginia.edu/). University of Virginia, 2022.</div>
 
 # Research: Literary Demography
 
@@ -355,7 +359,6 @@ tags$div(plot_demography, class = "map_container fragment", align = "center")
 ## Character Representation
 
 The number of times characters occur in events is a proxy for appearances.
-
 
 ```{r character_count, cache=TRUE}
 dy_events_characters <- dy_events %>%
@@ -562,7 +565,9 @@ tags$div(race_gender_matrix_plot, class = "map_container fragment", align = "cen
   + If there is a **negative** co-occurrence then one bird does not appear when another is present.
   + Co-occurrence can also be **random**, where a bird may appear sometimes and at other times not.
 
-## ...do math!{data-transition="none"}
+## ...do math!{data-background-transition="none"}
+
+::: nonincremental
 
 * Probabilistic statistics
    $$
@@ -572,7 +577,8 @@ tags$div(race_gender_matrix_plot, class = "map_container fragment", align = "cen
   + Multiply the different combinations possible with "species 2" without "species 1"$\binom{N-N_1}{N_2-j}$
   + Divide by the total number of sites where "species 2" could have occurred. $\binom{N}{N_2}$
 
-<div class= "citation fragment">Veech, Joseph. "cooccur: Probabilistic Species Co-Occurrence Analysis in R." *Journal of Statistical Software*. vol. 69. 2/2016</div>
+<div class= "citation">Veech, Joseph. "cooccur: Probabilistic Species Co-Occurrence Analysis in R." *Journal of Statistical Software*. vol. 69. 2/2016</div>
+:::
 
 ## Social Relations and Segregation
 
@@ -696,7 +702,7 @@ Characters do not merely interact they do so in particular contexts.
 
 There are **31** character types that combine in **528** different ways across **14** different types of locations. Figuring out these relationships becomes very complicated.
 
-- Data science to the rescue!
+<h1 class = "fragment"> Data science to the rescue!</h1>
 
 ## Principal Component Analysis
 
@@ -1151,25 +1157,54 @@ tags$div(fig_cooccur_map_groups, class = "map_container fragment", align = "cent
 
 - But now what?
 - Where does this go?
-- !["Traditional" Knowledge Production](images/clean_cycle.png){width="800"}
+<p class = "fragment convex">!["Traditional" Knowledge Production](images/clean_cycle.png){width="800"}</p>
 
 # Pathways to New Knowledges
 
 Create multiple on-ramps
 <div class="r-stack">
- <img class="fragment fade-in-then-out" data-fragment-index="1" src="images/cultural_analytics.png" height="400">
-  <img class="fragment fade-in-then-out" data-fragment-index="2" src="images/commentary.png" height="400">
-  <img class="fragment fade-in-then-out" data-fragment-index="3" src="images/heatmap_interactivity.png" height="400">
-  <video class="fragment fade-in-then-out" data-fragment-index="4" data-autoplay src="http://faulkner.iath.virginia.edu/racial_demography/videos/Racial_Distribution_by_Event_Chronology_revised.mp4" height="400"></video>
-    <img class="fragment" data-fragment-index="5" src="images/tweet.png" height="400">
+ <img class="fragment fade-in-then-out" data-fragment-index="1" src="images/cultural_analytics.png" height="350">
+ <img class="fragment fade-in-then-out" data-fragment-index="2" src="images/github.png" height="350">
+  <img class="fragment fade-in-then-out" data-fragment-index="3" src="images/commentary.png" height="350">
+  <img class="fragment fade-in-then-out" data-fragment-index="4" src="images/heatmap_interactivity.png" height="350">
+  <video class="fragment fade-in-then-out" data-fragment-index="5" data-autoplay src="video/Racial_Distribution_by_Event_Chronology_revised.mp4" height="350"></video>
+    <img class="fragment" data-fragment-index="6" src="images/tweet.png" height="350">
 </div>
-
 
 
 ## Institutionalizing New Knowledges
 
-* Institutionalizing New Knowledges
-  + Back to the text
-  + Back to the classroom
 
-## <iframe data-src="http://faulkner.iath.virginia.edu/family/videos-burgersre.php" data-preload width = 1600 height = 1050></iframe>
+
+<div class="r-stack">
+<p class = "fragment" data-fragment-index="0">Back to the text</p>
+ <img class="fragment fade-in-then-out" data-fragment-index="1" src="images/norton_critical_edition.png" height="350">
+  <img class="fragment fade-in-then-out" data-fragment-index="2" src="images/5471.jpg" height="350">
+  </div>
+
+## Teaching New Knowledges
+
+<iframe data-src="http://faulkner.iath.virginia.edu/family/videos-burgersre.php" data-preload width = 1600 height = 800></iframe>
+
+## Teaching and Learning William Faulkner in the Digital Age
+
+* 30-month grant
+* 10 instructors from high schools, community colleges, and research institutions
+* Develop interactive learning modules using Digital Yoknapatawpha
+* Create signature pairings with other authors
+  + Faulkner and Hurston
+  + Faulkner and Hemingway
+  + Faulkner and Baldwin
+  + Faulkner and Morrison
+* The digital and the analog as mutually enriching ways of looking at the world
+  
+## Thank you!
+
+Follow us!
+
+<p><img src="images/twitter.png" alt="twitter" height="42px"><a href="https://twitter.com/DigYok">\@DigYok</a><br>
+<img src="images/instagram.png" alt="instagram" height="42px"> <a href="https://www.instagram.com/digyok/">digyok</a><br>
+<img src="images/facebook.png" alt="facebook" height="42px"> <a href="https://www.facebook.com/digyok">Digital Yoknapatawpha</a><br>
+<img src="images/internet.png" alt="internet" height="42px"> <a href="http://faulkner.iath.virginia.edu/">http://faulkner.iath.virginia.edu</a><br>
+</p>
+
