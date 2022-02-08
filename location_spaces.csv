@@ -1,16 +1,16 @@
 Type,Space
-Event,Public
+Event,Non-Plantation
 OutOfYoknapatawpha,Wider world
-Church,Public
-Cabin,Domestic
-Public building,Public
-Statue,Public
-YoknapatawphaInset,Domestic
-Farm,Domestic
-Other Structure,Public
-Office/store,Public
-Mansion,Domestic
-House,Domestic
-Courthouse,Public
-Cemetery,Public
-Courthouse Square,Public
+Church,Non-Plantation
+Cabin,Plantation
+Public building,Non-Plantation
+Statue,Non-Plantation
+YoknapatawphaInset,Plantation
+Farm,Non-Plantation
+Other Structure,Non-Plantation
+Office/store,Non-Plantation
+Mansion,Plantation
+House,Non-Plantation
+Courthouse,Non-Plantation
+Cemetery,Non-Plantation
+Courthouse Square,Non-Plantation
