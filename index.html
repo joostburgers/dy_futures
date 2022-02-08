@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="dy_futures_files/reveal.js-3.3.0.1/css/reveal.css"/>
-
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
 
 <link rel="stylesheet" href="dy_futures_files/reveal.js-3.3.0.1/css/theme/serif.css" id="theme">
@@ -265,12 +265,12 @@
 		font-size: 0.8em;
 	}
 
-}  
+}
 </script>
 
 
 <script id="pdf-css" type="application/dynamic-css">
-    
+
 /**
  * This stylesheet is used to print reveal.js
  * presentations to PDF.
@@ -795,14 +795,14 @@ Create multiple on-ramps
 
         menu: {
           side: 'right',
-   
-    
-    
-    
-    
-    
-    
- 
+
+
+
+
+
+
+
+
           custom: false,
           themes: false,
           transitions: false
@@ -829,7 +829,7 @@ Create multiple on-ramps
 <script>
   (function() {
     if (window.jQuery) {
-      Reveal.addEventListener( 'slidechanged', function(event) {  
+      Reveal.addEventListener( 'slidechanged', function(event) {
         window.jQuery(event.previousSlide).trigger('hidden');
         window.jQuery(event.currentSlide).trigger('shown');
       });
