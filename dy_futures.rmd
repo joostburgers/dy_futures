@@ -1,8 +1,8 @@
 ---
-title: "Digital Yoknapatawpha"
+title: "From Yoknapatawpha County to the Academy:"
 author: "Johannes Burgers"
-subtitle: "Mapping the Past in the Future"
-date: "2/2/2022"
+subtitle: "Remapping Literary Studies in the Digital Age"
+date: "2/9/2022"
 output: 
   revealjs::revealjs_presentation:
     theme: serif
@@ -12,6 +12,7 @@ output:
     reveal_options:
       width: 1680
       height: 1050
+      slideNumber: TRUE
       menu:
         side: right
     fig_caption: true
@@ -148,7 +149,7 @@ Working definition
 
 -   Any form of scholarship, teaching, or publication that uses a computational or digital approach to ask questions in the humanities that would be hard to answer using non-computational methods.
 
--   A opportunity for the humanities to complicate and question the way in which data is acquired, processed, and represented at a time when ways of knowing the world are increasingly digital.
+-   An opportunity for the humanities to complicate and question the way in which data is acquired, processed, and represented at a time when ways of knowing the world are increasingly digital.
 
 ## <iframe data-src="http://mappingdecline.lib.uiowa.edu/map/" data-preload width = 1600 title="Mapping Decline" alt="Website cannot be loaded" height = 950></iframe>
 
@@ -582,7 +583,7 @@ tags$div(race_gender_matrix_plot, class = "map_container fragment", align = "cen
 
 ## Social Relations and Segregation
 
-- Types tend reproduce the social relationships of the Planter Aristocracy and Jim Crow
+- Types tend to reproduce the social relationships of the Planter Aristocracy and Jim Crow
 
 
 ```{r co_occurrence_matrix, eval = FALSE, cache = TRUE}
@@ -698,7 +699,7 @@ tags$div(top_table_plot, class = "map_container fragment", align = "center")
 
 ## Interactions are Place Specific
 
-Characters do not merely interact they do so in particular contexts.
+Characters do not merely interact, they do so in particular contexts.
 
 There are **31** character types that combine in **528** different ways across **14** different types of locations. Figuring out these relationships becomes very complicated.
 
@@ -1163,7 +1164,7 @@ tags$div(fig_cooccur_map_groups, class = "map_container fragment", align = "cent
 
 Create multiple on-ramps
 <div class="r-stack">
- <img class="fragment fade-in-then-out" data-fragment-index="1" src="images/cultural_analytics.png" height="350">
+ <img class="fragment fade-in-then-out" data-fragment-index="1" src="images/cultural_analytics.PNG" height="350">
  <img class="fragment fade-in-then-out" data-fragment-index="2" src="images/github.png" height="350">
   <img class="fragment fade-in-then-out" data-fragment-index="3" src="images/commentary.png" height="350">
   <img class="fragment fade-in-then-out" data-fragment-index="4" src="images/heatmap_interactivity.png" height="350">
@@ -1173,8 +1174,6 @@ Create multiple on-ramps
 
 
 ## Institutionalizing New Knowledges
-
-
 
 <div class="r-stack">
 <p class = "fragment" data-fragment-index="0">Back to the text</p>
