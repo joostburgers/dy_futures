@@ -1168,7 +1168,7 @@ Create multiple on-ramps
  <img class="fragment fade-in-then-out" data-fragment-index="2" src="images/github.png" height="350">
   <img class="fragment fade-in-then-out" data-fragment-index="3" src="images/commentary.png" height="350">
   <img class="fragment fade-in-then-out" data-fragment-index="4" src="images/heatmap_interactivity.png" height="350">
-  <video class="fragment fade-in-then-out" data-fragment-index="5" data-autoplay src="video/Racial_Distribution_by_Event_Chronology_revised.mp4" height="350"></video>
+  <video class="fragment fade-in-then-out" data-fragment-index="5" data-autoplay controls loop src="video/Racial_Distribution_by_Event_Chronology_revised.mp4" height="350"></video>
     <img class="fragment" data-fragment-index="6" src="images/tweet.png" height="350">
 </div>
 
